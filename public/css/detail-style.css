@@ -1,0 +1,220 @@
+nav.navbar{
+    width: 100%;
+    background-color: #2C4B9A;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100px;
+}
+.container-fluid{
+          
+    & span.navbar-brand{
+        font-size: 28px;
+      & span{
+        color: #FF9501;
+      }
+    }
+    
+    & a{
+      margin-right: 15px;
+      text-align: center;
+      color: white;
+    }
+  
+    & button{
+      background-color: #FF9501;
+      color: white;
+      border-radius: 20px;
+    }
+}
+.backtoposts{
+  border: none;
+  background-color: white;
+  text-decoration: none;
+  position: relative;
+  top: 110px;
+  left: 5%;
+  color: black;
+  & img{
+    width: 3%;
+    height: 3%;
+  }
+}
+  .container-view-posts{
+      margin-left: 20%;
+      top: 150px;
+      position: relative;
+      display: flex;
+      align-content: center;
+      width: 60%;
+      border-radius: 12px;
+      background-color: #F0EFEF;
+      padding: 25px;
+      max-height: 550px ;
+      margin-bottom: 5%;
+      & img{
+        border-radius: 50%;
+        width: 5%;
+        height: 5%;
+      }
+
+    .container-view-posts2{
+      display: block;
+      position: relative;
+      max-height: 550px;
+      width: 90%;
+      & h6{
+        margin-left: 12px;
+        font-size: 22px;
+      }
+      & p{
+        float: left;
+        position: relative;
+        margin-top: 10px;
+        cursor: pointer;
+      }
+      /* & img{
+        width: 10%;
+        height: 10%;
+      }
+      & video{
+        width: 10%;
+        height: 10%;
+      } */
+      & .reactions{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 5%;
+        
+        & span{
+          margin-left: 5%;
+        }
+        & .btn-comment{
+            border: none;
+            float: left;
+            margin-left: 15%;
+            width: 50%;
+            height: 50px;
+            & img{
+              width: 25px;
+              height: 25px;
+            }
+        }
+        & .btn-upvote{
+          border: none;
+          float: right;
+          margin-left: 15%;
+          width: 50%;
+          height: 50px;
+          & img{
+            width: 25px;
+            height: 25px;
+          }
+        }
+      }
+    }
+  }
+
+  .container-comment{
+    display: flex;
+    position: relative;
+    margin-top: 15%;
+    margin-left: 20%;
+    background-color: #F0EFEF;
+    border-radius: 12px;
+    width: 60%;
+    padding: 20px;
+    & img{
+      border-radius: 50%;
+      width: 5%;
+      height: 5%;
+    }
+    & form{
+      width: 90%;
+      display: flex;
+    }
+      & textarea{
+        float: left;
+        border: none;
+        background-color: #F0EFEF;
+        width: 90%;
+        margin-left: 3%;
+        outline: none;
+      }
+  
+      & button{
+        float: right;
+        position: relative;
+        background-color: #FF9501   ;
+        color: white;
+        border-radius: 20px;
+        margin-left: 5%;
+        width: 20%;
+        height: 40px;
+      }
+  }
+
+  .view-comments{
+      margin-left: 20%;
+      top: 70px;
+      position: relative;
+      display: flex;
+      align-content: center;
+      width: 60%;
+      border-radius: 12px;
+      background-color: #F0EFEF;
+      padding: 20px;
+      max-height: 350px ;
+      & img{
+        border-radius: 50%;
+        width: 5%;
+        height: 5%;
+      }
+
+    .container-view-comments2{
+      display: block;
+      position: relative;
+      width: 80%;
+      & h6{
+        margin-left: 12px;
+        font-size: 22px;
+      }
+      & p{
+        position: relative;
+        margin-top: 20px;
+        margin-left: 12px;
+      }
+      & .reactions{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        & span{
+          margin-left: 5%;
+        }
+        & .btn-comment{
+            border: none;
+            float: left;
+            margin-left: 20%;
+            width: 50%;
+            height: 50px;
+            & img{
+              width: 25px;
+              height: 25px;
+            }
+        }
+        & .btn-upvote{
+          border: none;
+          float: right;
+          margin-left: 20%;
+          width: 50%;
+          height: 50px;
+          & img{
+            width: 25px;
+            height: 25px;
+          }
+        }
+      }
+    }
+  }
